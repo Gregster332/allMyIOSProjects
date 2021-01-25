@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EC815F56901FDA6E277D472 /* Pods_WaterBalance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDF2406B0B3E23C87DB1E6D6 /* Pods_WaterBalance.framework */; };
+		644FE2C3255E57AD00082CD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644FE2C2255E57AD00082CD3 /* AppDelegate.swift */; };
+		644FE2C5255E57AD00082CD3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644FE2C4255E57AD00082CD3 /* SceneDelegate.swift */; };
+		644FE2CA255E57AD00082CD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644FE2C8255E57AD00082CD3 /* Main.storyboard */; };
+		644FE2CF255E57B000082CD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 644FE2CE255E57B000082CD3 /* Assets.xcassets */; };
+		644FE2D2255E57B000082CD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 644FE2D0255E57B000082CD3 /* LaunchScreen.storyboard */; };
+		644FE2DD255E585D00082CD3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644FE2DC255E585D00082CD3 /* CircularProgressView.swift */; };
+		644FE2E0255E586C00082CD3 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 644FE2DF255E586C00082CD3 /* MainViewController.swift */; };
+		64F468DF2572443E006E2D67 /* WaterSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F468DE2572443E006E2D67 /* WaterSettingsVC.swift */; };
+		64F468E2257246DB006E2D67 /* WaterSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F468E1257246DB006E2D67 /* WaterSettingsView.swift */; };
+		64F468E82572B7FC006E2D67 /* WaterSettingsVC+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F468E72572B7FC006E2D67 /* WaterSettingsVC+alert.swift */; };
+		64F468EC2572BB43006E2D67 /* MainVC+alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F468EB2572BB43006E2D67 /* MainVC+alert.swift */; };
+		64F468F125741D6A006E2D67 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F468F025741D6A006E2D67 /* Notifications.swift */; };
+		64F468F825742B2A006E2D67 /* MainSettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64F468F725742B2A006E2D67 /* MainSettingsVC.swift */; };
+		64FA562A25812F0F0055E111 /* PopVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FA562925812F0F0055E111 /* PopVC.swift */; };
+		64FA562E258134810055E111 /* PlusWaterViaPopoverVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FA562D258134810055E111 /* PlusWaterViaPopoverVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		059AB5EB139ED520E5DEF64D /* Pods-WaterBalance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBalance.release.xcconfig"; path = "Target Support Files/Pods-WaterBalance/Pods-WaterBalance.release.xcconfig"; sourceTree = "<group>"; };
+		644FE2BF255E57AD00082CD3 /* WaterBalance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterBalance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		644FE2C2255E57AD00082CD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		644FE2C4255E57AD00082CD3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		644FE2C9255E57AD00082CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		644FE2CE255E57B000082CD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		644FE2D1255E57B000082CD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		644FE2D3255E57B000082CD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		644FE2DC255E585D00082CD3 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgressView.swift; sourceTree = "<group>"; };
+		644FE2DF255E586C00082CD3 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		64F468DE2572443E006E2D67 /* WaterSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterSettingsVC.swift; sourceTree = "<group>"; };
+		64F468E1257246DB006E2D67 /* WaterSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaterSettingsView.swift; sourceTree = "<group>"; };
+		64F468E72572B7FC006E2D67 /* WaterSettingsVC+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WaterSettingsVC+alert.swift"; sourceTree = "<group>"; };
+		64F468EB2572BB43006E2D67 /* MainVC+alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+alert.swift"; sourceTree = "<group>"; };
+		64F468F025741D6A006E2D67 /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		64F468F725742B2A006E2D67 /* MainSettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSettingsVC.swift; sourceTree = "<group>"; };
+		64FA562925812F0F0055E111 /* PopVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopVC.swift; sourceTree = "<group>"; };
+		64FA562D258134810055E111 /* PlusWaterViaPopoverVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlusWaterViaPopoverVC.swift; sourceTree = "<group>"; };
+		AF7D2256DA8421A0CAA17859 /* Pods-WaterBalance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WaterBalance.debug.xcconfig"; path = "Target Support Files/Pods-WaterBalance/Pods-WaterBalance.debug.xcconfig"; sourceTree = "<group>"; };
+		EDF2406B0B3E23C87DB1E6D6 /* Pods_WaterBalance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WaterBalance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		644FE2BC255E57AD00082CD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC815F56901FDA6E277D472 /* Pods_WaterBalance.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		644FE2B6255E57AD00082CD3 = {
+			isa = PBXGroup;
+			children = (
+				644FE2C1255E57AD00082CD3 /* WaterBalance */,
+				644FE2C0255E57AD00082CD3 /* Products */,
+				FFA6ACCCEA8C8A827262A877 /* Pods */,
+				EC08281C1C573B76456C6637 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		644FE2C0255E57AD00082CD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				644FE2BF255E57AD00082CD3 /* WaterBalance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		644FE2C1255E57AD00082CD3 /* WaterBalance */ = {
+			isa = PBXGroup;
+			children = (
+				644FE2C2255E57AD00082CD3 /* AppDelegate.swift */,
+				644FE2C4255E57AD00082CD3 /* SceneDelegate.swift */,
+				644FE2C8255E57AD00082CD3 /* Main.storyboard */,
+				64F468E525724D4F006E2D67 /* Views */,
+				64F468EE2572BB4B006E2D67 /* ViewControllers */,
+				644FE2CE255E57B000082CD3 /* Assets.xcassets */,
+				644FE2D0255E57B000082CD3 /* LaunchScreen.storyboard */,
+				644FE2D3255E57B000082CD3 /* Info.plist */,
+			);
+			path = WaterBalance;
+			sourceTree = "<group>";
+		};
+		64F468E525724D4F006E2D67 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				64F468E1257246DB006E2D67 /* WaterSettingsView.swift */,
+				644FE2DC255E585D00082CD3 /* CircularProgressView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64F468EE2572BB4B006E2D67 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				64F468DE2572443E006E2D67 /* WaterSettingsVC.swift */,
+				64F468E72572B7FC006E2D67 /* WaterSettingsVC+alert.swift */,
+				644FE2DF255E586C00082CD3 /* MainViewController.swift */,
+				64F468EB2572BB43006E2D67 /* MainVC+alert.swift */,
+				64FA562D258134810055E111 /* PlusWaterViaPopoverVC.swift */,
+				64FA562925812F0F0055E111 /* PopVC.swift */,
+				64F468F025741D6A006E2D67 /* Notifications.swift */,
+				64F468F725742B2A006E2D67 /* MainSettingsVC.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EC08281C1C573B76456C6637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDF2406B0B3E23C87DB1E6D6 /* Pods_WaterBalance.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FFA6ACCCEA8C8A827262A877 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AF7D2256DA8421A0CAA17859 /* Pods-WaterBalance.debug.xcconfig */,
+				059AB5EB139ED520E5DEF64D /* Pods-WaterBalance.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		644FE2BE255E57AD00082CD3 /* WaterBalance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 644FE2D6255E57B000082CD3 /* Build configuration list for PBXNativeTarget "WaterBalance" */;
+			buildPhases = (
+				0994F7E55414523A6552FEAD /* [CP] Check Pods Manifest.lock */,
+				644FE2BB255E57AD00082CD3 /* Sources */,
+				644FE2BC255E57AD00082CD3 /* Frameworks */,
+				644FE2BD255E57AD00082CD3 /* Resources */,
+				AD479B980E4CA98B05028523 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WaterBalance;
+			productName = WaterBalance;
+			productReference = 644FE2BF255E57AD00082CD3 /* WaterBalance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		644FE2B7255E57AD00082CD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					644FE2BE255E57AD00082CD3 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 644FE2BA255E57AD00082CD3 /* Build configuration list for PBXProject "WaterBalance" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 644FE2B6255E57AD00082CD3;
+			productRefGroup = 644FE2C0255E57AD00082CD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				644FE2BE255E57AD00082CD3 /* WaterBalance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		644FE2BD255E57AD00082CD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644FE2D2255E57B000082CD3 /* LaunchScreen.storyboard in Resources */,
+				644FE2CF255E57B000082CD3 /* Assets.xcassets in Resources */,
+				644FE2CA255E57AD00082CD3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0994F7E55414523A6552FEAD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WaterBalance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD479B980E4CA98B05028523 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaterBalance/Pods-WaterBalance-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WaterBalance/Pods-WaterBalance-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WaterBalance/Pods-WaterBalance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		644FE2BB255E57AD00082CD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				644FE2C3255E57AD00082CD3 /* AppDelegate.swift in Sources */,
+				644FE2DD255E585D00082CD3 /* CircularProgressView.swift in Sources */,
+				644FE2C5255E57AD00082CD3 /* SceneDelegate.swift in Sources */,
+				64F468F125741D6A006E2D67 /* Notifications.swift in Sources */,
+				64F468F825742B2A006E2D67 /* MainSettingsVC.swift in Sources */,
+				644FE2E0255E586C00082CD3 /* MainViewController.swift in Sources */,
+				64FA562A25812F0F0055E111 /* PopVC.swift in Sources */,
+				64F468DF2572443E006E2D67 /* WaterSettingsVC.swift in Sources */,
+				64F468E2257246DB006E2D67 /* WaterSettingsView.swift in Sources */,
+				64FA562E258134810055E111 /* PlusWaterViaPopoverVC.swift in Sources */,
+				64F468EC2572BB43006E2D67 /* MainVC+alert.swift in Sources */,
+				64F468E82572B7FC006E2D67 /* WaterSettingsVC+alert.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		644FE2C8255E57AD00082CD3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644FE2C9255E57AD00082CD3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		644FE2D0255E57B000082CD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				644FE2D1255E57B000082CD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		644FE2D4255E57B000082CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		644FE2D5255E57B000082CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		644FE2D7255E57B000082CD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF7D2256DA8421A0CAA17859 /* Pods-WaterBalance.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DU546X6V;
+				INFOPLIST_FILE = WaterBalance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jqsoftware.WaterBalance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		644FE2D8255E57B000082CD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 059AB5EB139ED520E5DEF64D /* Pods-WaterBalance.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 88DU546X6V;
+				INFOPLIST_FILE = WaterBalance/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jqsoftware.WaterBalance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		644FE2BA255E57AD00082CD3 /* Build configuration list for PBXProject "WaterBalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644FE2D4255E57B000082CD3 /* Debug */,
+				644FE2D5255E57B000082CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		644FE2D6255E57B000082CD3 /* Build configuration list for PBXNativeTarget "WaterBalance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				644FE2D7255E57B000082CD3 /* Debug */,
+				644FE2D8255E57B000082CD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 644FE2B7255E57AD00082CD3 /* Project object */;
+}
