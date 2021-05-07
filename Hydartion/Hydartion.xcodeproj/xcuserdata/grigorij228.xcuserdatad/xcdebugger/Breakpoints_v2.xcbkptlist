@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4FF9E6AC-A9FD-4CA2-B23F-EC66CF4FA024"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7BC2D69F-2D17-45D4-A8E6-8D2C636DBAD7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hydartion/View Models/WeatherViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getWeather(city:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4FD5E54F-87A1-4EB3-86F6-612EDF9A4FFA"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Hydartion/AppFiles/Counter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "53"
+            endingLineNumber = "53"
+            landmarkName = "countDayChallenge()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "4FD5E54F-87A1-4EB3-86F6-612EDF9A4FFA - ef1fced38a688340"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hydartion.Counter.(countDayChallenge in _8F544722C5A3157F488C112232852D28)() -&gt; Swift.Int"
+                  moduleName = "Hydartion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grigorij228/Desktop/Hydartion/Hydartion/AppFiles/Counter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1222">
+               </Location>
+               <Location
+                  uuid = "4FD5E54F-87A1-4EB3-86F6-612EDF9A4FFA - ef1fced38a688340"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hydartion.Counter.(countDayChallenge in _8F544722C5A3157F488C112232852D28)() -&gt; Swift.Int"
+                  moduleName = "Hydartion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grigorij228/Desktop/Hydartion/Hydartion/AppFiles/Counter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1234">
+               </Location>
+               <Location
+                  uuid = "4FD5E54F-87A1-4EB3-86F6-612EDF9A4FFA - ef1fced38a688340"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hydartion.Counter.(countDayChallenge in _8F544722C5A3157F488C112232852D28)() -&gt; Swift.Int"
+                  moduleName = "Hydartion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grigorij228/Desktop/Hydartion/Hydartion/AppFiles/Counter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1296">
+               </Location>
+               <Location
+                  uuid = "4FD5E54F-87A1-4EB3-86F6-612EDF9A4FFA - ef1fced38a688340"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Hydartion.Counter.(countDayChallenge in _8F544722C5A3157F488C112232852D28)() -&gt; Swift.Int"
+                  moduleName = "Hydartion"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/grigorij228/Desktop/Hydartion/Hydartion/AppFiles/Counter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1355">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
